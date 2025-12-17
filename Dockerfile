@@ -1,5 +1,5 @@
 # Use a lightweight Debian-based image as a base
-FROM fluent/fluentd-kubernetes-daemonset:v1.18-debian-opensearch-amd64-1@sha256:b9379136857868b549f82ea76e091f77ffa4db750df739f4d15c8ba0492f4d01
+FROM fluent/fluentd-kubernetes-daemonset:v1.19-debian-opensearch-amd64-1@sha256:de1b8a8c9e52fcf27257461065d47501c1105f46edf739f0c76d9371862562d6
 
 # Metadata for the extension
 LABEL org.opencontainers.image.title="Fluentd"
